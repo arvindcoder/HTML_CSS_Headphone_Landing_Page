@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Fredoka:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: #fdfdfd;
+    margin: 0;
+    padding: 60px;
+    overflow: hidden;
+}
+
+nav,
+.nav-items,
+.intro-section {
+
+    display: inline-flex;
+}
+
+.nav-items {
+    float: right;
+    font-size: 30px;
+    font-family: Fredoka;
+    margin-left: 295px;
+}
+
+img[alt="actions"] {
+    margin-left: 197px;
+}
+
+.nav-item {
+    margin: 0 20px;
+}
+
+.active-item {
+    color: orange;
+}
+
+h3 {
+    font-size: 35px;
+    font-family: Poppins;
+    margin-top: 20px;
+}
+
+h1 {
+    font-size: 70px;
+    font-family: Fredoka One;
+    margin-top: 8px;
+
+}
+
+img[alt="plus"] {
+    background-color: #ff5c34;
+    border-radius: 50%;
+    padding: 7px;
+    position: relative;
+    top: 9px;
+    margin-right: 25px;
+
+}
+
+.sub-headlines {
+    margin-left: 50px;
+    margin-top: 20px;
+    font-family: Fredoka;
+
+}
+
+.sub-headline {
+
+    font-size: 30px;
+}
+
+.left-section {
+    width: 50%;
+}
+
+.right-section {
+    width: 50%;
+    float: right;
+}
+
+.text {
+    font-family: Fredoka;
+    color: rgb(120, 114, 114);
+    font-size: 15px;
+    margin-top: 30px;
+}
+
+.action-btn {
+    background-color: #ff5c34;
+    border-radius: 36px;
+    color: white;
+    border: none;
+    padding: 16px 25px;
+    font-size: 20px;
+    position: relative;
+    top: 88%;
+    left: 74px;
+
+}
+
+.action-btns>.action-btn:nth-child(1) {
+    margin-right: 30px;
+}
+
+.action-btns {
+    margin-top: 35px;
+}
+
+.discount {
+    position: absolute;
+    z-index: 1;
+    top: 308px;
+    right: 476px;
+    height: 140px;
+    width: 177px;
+
+}
+
+.discount-content {
+    position: absolute;
+    z-index: 2;
+    top: 287px;
+    left: 59%;
+    color: white;
+}
+
+img[alt="headphone"] {
+    position: absolute;
+    width: 33%;
+    height: 59%;
+    right: 6%;
+    top: 17%;
+
+}
+
+h4 {
+    margin-top: 44px;
+    margin-left: 19px;
+}
+
+.dot {
+
+    height: 25px;
+    width: 25px;
+    background-color: #edb50e;
+    border-radius: 50%;
+}
+
+.yellow-dot {
+    background-color: #f0ec1c;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.tomato-dot {
+    background-color: #dc3517;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.black-dot {
+    background-color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.dots {
+    display: inline-flex;
+    position: absolute;
+    bottom: 15%;
+    left: 72%;
+}
+.right-section .action-btn{
+    margin-left: 245px;
+    top: 455px;
+}
+.right-section h1{
+    font-size: 47px;
+}
